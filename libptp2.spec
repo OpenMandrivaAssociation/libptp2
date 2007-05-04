@@ -17,8 +17,8 @@ Patch0: libptp2-1.1.0-gcc4.patch
 
 ##### ADDITIONAL DEFINITIONS #####
 
-Provides:	%{name}
 BuildRoot: %{_tmppath}/%{name}-buildroot
+BuildRequires:	libusb-devel
 
 ##### SUB-PACKAGES #####
 
