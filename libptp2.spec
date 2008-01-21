@@ -4,7 +4,7 @@
 
 Summary:	Library to access digital cameras via PTP
 Name:		libptp2
-Version:	1.1.0
+Version:	1.1.10
 Release:	%release
 License:	GPL
 Group:		Graphics
@@ -12,8 +12,7 @@ Url:		http://sourceforge.net/projects/libptp/
 
 ##### SOURCE FILES #####
 
-Source: http://heanet.dl.sourceforge.net/sourceforge/libptp/%{name}-%{version}.tar.bz2
-Patch0: libptp2-1.1.0-gcc4.patch
+Source: http://heanet.dl.sourceforge.net/sourceforge/libptp/%{name}-%{version}.tar.gz
 
 ##### ADDITIONAL DEFINITIONS #####
 
@@ -80,7 +79,6 @@ cameras and also some stuff for Nikon.
 %prep
 rm -rf $RPM_BUILD_DIR/%{name}-%{version}
 %setup -q -n %{name}-%{version}
-%patch0 -p1 -b .gcc4
 ##### BUILD #####
 
 %build
