@@ -22,7 +22,6 @@ BuildRequires:	libusb-devel
 ##### SUB-PACKAGES #####
 
 %description
-
 Many digital cameras communicate with computers via the Picture
 Transfer Protocol (PTP). This protocol gives a standardized
 manufacturer-independent set of camera operation commands, as
@@ -38,7 +37,6 @@ Provides:	%{name}
 Group:		Graphics
 
 %description -n %libname
-
 Many digital cameras communicate with computers via the Picture
 Transfer Protocol (PTP). This protocol gives a standardized
 manufacturer-independent set of camera operation commands, as
@@ -63,7 +61,6 @@ Summary:	Command line utility to access digital cameras via PTP
 Group:		Graphics
 
 %description -n ptpcam
-
 Many digital cameras communicate with computers via the Picture
 Transfer Protocol (PTP). This protocol gives a standardized
 manufacturer-independent set of camera operation commands, as
