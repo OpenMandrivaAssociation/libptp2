@@ -1,5 +1,5 @@
 ##### GENERAL STUFF #####
-%define release %mkrel 3
+%define release %mkrel 4
 %define libname %mklibname ptp2 _1
 
 Summary:	Library to access digital cameras via PTP
