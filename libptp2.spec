@@ -74,7 +74,7 @@ cameras and also some stuff for Nikon.
 ##### PREP #####
 
 %prep
-rm -rf $RPM_BUILD_DIR/%{name}-%{version}
+rm -rf %{_builddir}/%{name}-%{version}
 %setup -q -n %{name}-%{version}
 ##### BUILD #####
 
