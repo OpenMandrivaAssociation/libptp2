@@ -70,12 +70,13 @@ the "%{libname}" library.
 %configure2_5x \
 	--disable-static
 
-%make
+# Not safe for -j24 as of 1.1.10
+make
 
 %install
 %makeinstall_std
 
-%find_lang %{name}
+%find_lang %{name} || touch %{name}.lang
 
 %files -n ptpcam
 %doc AUTHORS COPYING ChangeLog README TODO
