@@ -6,7 +6,7 @@
 Summary:	Library to access digital cameras via PTP
 Name:		libptp2
 Version:	1.1.10
-Release:	6
+Release:	7
 License:	GPL
 Group:		Graphics
 Url:		http://sourceforge.net/projects/libptp/
