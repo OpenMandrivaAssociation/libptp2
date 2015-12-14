@@ -3,6 +3,8 @@
 %define libname %mklibname %{oname}_ %{major}
 %define devname %mklibname %{oname} -d
 
+%define _disable_lto 1
+
 Summary:	Library to access digital cameras via PTP
 Name:		libptp2
 Version:	1.1.10
