@@ -11,7 +11,7 @@ Version:	1.1.10
 Release:	15
 License:	GPL
 Group:		Graphics
-Url:		http://sourceforge.net/projects/libptp/
+Url:		https://sourceforge.net/projects/libptp/
 Source0:	http://heanet.dl.sourceforge.net/sourceforge/libptp/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(libusb)
 
