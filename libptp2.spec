@@ -13,6 +13,11 @@ License:	GPL
 Group:		Graphics
 Url:		https://sourceforge.net/projects/libptp/
 Source0:	http://heanet.dl.sourceforge.net/sourceforge/libptp/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(libusb)
 
 %description
